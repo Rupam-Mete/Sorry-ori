@@ -1,0 +1,46 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffeef2;
+    color: #555;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    margin: 50px auto;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #ff6f91;
+}
+
+button.forgive-button {
+    background-color: #ff6f91;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+button.forgive-button:hover {
+    background-color: #ff4f71;
+}
+
+.love-notes, .memory-lane, .apology-letter {
+    margin-top: 20px;
+}
+
+.gallery img {
+    width: 100px;
+    margin: 10px;
+    border: 2px solid #ff6f91;
+    border-radius: 10px;
+}
